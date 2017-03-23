@@ -1,0 +1,15 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#corner {
+    border-radius: 25px;
+}
+
+#border {
+    border: 20px groove black;
+}

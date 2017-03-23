@@ -1,0 +1,18 @@
+div {
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+}
+
+#second {
+    box-sizing: border-box;
+}
+
+#third {
+    border: 20px groove black;
+    background-image: url('http://i.imgur.com/Ce7y2jU.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

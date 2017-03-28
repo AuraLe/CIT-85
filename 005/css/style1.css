@@ -1,0 +1,31 @@
+body {
+    background: url('http://nexus.leagueoflegends.com/wp-content/uploads/2017/03/LOL_CMS_60_Article_03.jpg') no-repeat;
+    background-size: cover;
+}
+div {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    font-size: 2em;
+    padding: 25px;
+    border: 1px solid crimson;
+    margin: 5px;
+    background-color: white;
+}
+
+a:link {
+    color: crimson;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: blueviolet;
+}
+a:active {
+    color: mediumspringgreen;
+}

@@ -1,0 +1,16 @@
+a {
+    transition: all 200ms ease-out;
+}
+a:link {
+    color: darkred;
+}
+a:visited {
+    color: mediumseagreen;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: hotpink
+}
+

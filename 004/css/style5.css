@@ -1,0 +1,10 @@
+p {
+    color: gray;
+}
+p::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line {
+    color: black;
+}

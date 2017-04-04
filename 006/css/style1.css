@@ -22,7 +22,8 @@ main {
 
 h1 {
     color: white;
-    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
     background: rgba(255,255,255,0.3);
     padding: 35px 50px;
     margin: auto;
@@ -71,6 +72,7 @@ header {
     justify-content: center;
     align-items: center;
     transition: all 200ms ease-in-out;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .idx-right a:link, .idx-right a:visited {
@@ -90,6 +92,7 @@ p {
     margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #belowfold {

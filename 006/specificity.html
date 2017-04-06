@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Specificity</title>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <p class="para" id="part1">Class and ID applied to the same element. Class has value of 10, ID has value of 100. <em>ID</em> wins.</p>
+
+    <h4 id="part2">An element selector and ID applied to the same element. Element selector has value of 1, ID has value of 100. <em>ID</em> wins.</h4>
+
+    <h3 class="para">An element selector and class applied to the same element. Class has value of 10, element selector has value of 1. <em>Class</em> wins.</h3>
+
+    <p><a href="https://www.google.com/" target="_blank">Google.com</a> | An element selector and an attribute applied to the same element. Element selector has value of 1, attribute has value of 10. <em>Attribute</em> wins.</p>
+
+    <p class="link"><a href="https://www.facebook.com/" target="_blank" title="Facebook" class="link">Facebook</a> | A class and an attribute applied to the same element. Both have the same value of 10 each, but attribute is placed after class. <em>Attribute</em> wins.</p>
+</body>
+</html>

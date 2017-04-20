@@ -1,0 +1,40 @@
+body {
+    flex-flow: column wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+#first {
+    width: 25%;
+    height: 100%;
+} 
+
+#second, #third, #sixth {
+    width: 75%;
+    height: 20%;
+}
+
+#m4-5 {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 75%;
+    height: 40%;
+}
+
+#fourth, #fifth {
+    width: 50%;
+    height: 100%;
+}
+
+
+/*#second {
+    width: 35%;
+}
+
+#third {
+    width: 65%;
+}
+
+#fifth, #sixth {
+    width: 50%;
+}*/

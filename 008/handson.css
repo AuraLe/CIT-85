@@ -1,0 +1,45 @@
+html, body {
+    padding: 0px;
+    margin: 0x;
+    box-sizing: border-box;
+}
+
+.red, .green, .blue {
+    height: 100px;
+    width: 100px;
+    border-radius: 0% 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-transition: all 100ms ease-out;
+    -moz-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: lawngreen;
+}
+
+.blue {
+    background: deepskyblue;
+}
+
+.red:hover {
+    background: lawngreen;
+    border-radius: 100% 100%;
+
+}
+
+.green:hover {
+    background: deepskyblue;
+    border-radius: 100% 100%;
+}
+
+.blue:hover {
+    background: red;
+    border-radius: 100% 100%;
+}
+

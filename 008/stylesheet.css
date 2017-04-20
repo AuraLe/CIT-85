@@ -1,0 +1,42 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 40vh;
+    background-image: url('http://i.imgur.com/37JsYrt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -10vh;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+#headergradient {
+    width: 100%;
+    height: 40vh;
+    background: rgba(0,99,213,0.9);
+    background: -webkit-linear-gradient(transparent, #0063D5);
+    background: -moz-linear-gradient(transparent, #0063D5);
+    background: -o-linear-gradient(transparent, #0063D5);
+    background: linear-gradient(transparent, #0063D5);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    color: white;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin-bottom: 0px;
+}
+
+#Photos img {
+    width: 150px;
+    height: 150px;
+}

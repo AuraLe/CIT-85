@@ -1,0 +1,40 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    border: 5px solid blue;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.items {
+    height: 15vh;
+    width: 10vw;
+    background: darkslategray;
+    border: 10px dotted darkgoldenrod;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+
+#first {
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+#second {
+    flex-grow: 2;
+}

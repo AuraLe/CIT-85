@@ -1,0 +1,46 @@
+html, body, div {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth {
+    width: 100%;
+    color: wheat;
+}
+
+#first {
+    background: #000000;
+}
+
+#second {
+    background: #343838;
+}
+
+#third {
+    background: #005F6B;
+}
+
+#fourth {
+    background: #008C9E;
+}
+
+#fifth {
+    background: #00B4CC;
+}
+
+#sixth {
+    background: #00DFFC;
+}

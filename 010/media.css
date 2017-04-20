@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Amatic SC';
+}
+
+@media (max-width:599px) {
+    h1 {
+        color: deeppink;
+        font-size: 2em;
+    }
+}
+
+@media (min-width:600px) and (max-width:899px) {
+    h1 {
+        color: mediumspringgreen;
+        font-size: 3em;
+        text-align: center;
+    }
+}
+
+@media (min-width:900px) {
+    h1 {
+        color: dodgerblue;
+        font-size: 5em;
+        text-align: right;
+    }
+}

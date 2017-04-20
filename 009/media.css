@@ -1,0 +1,60 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+#flexbox {
+    height: 95vh;
+    width: 95vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid indianred;
+    margin: auto;
+    margin-top: 2.5vh;
+}
+
+#menu {
+    height: 100%;
+    width: 25%;
+    border: none;
+    border-right: 2px solid indigo;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    margin: 10px 0px;
+    transition: all 200ms ease-in;
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    background: lightsalmon;
+    text-align: center;
+    color: darkred;
+}
+
+#menu a:hover {
+    color: white;
+    background: indianred;
+}
+
+#content {
+    height: 100%;
+    text-align: justify;
+    padding: 20px;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}

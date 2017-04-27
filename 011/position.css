@@ -1,0 +1,36 @@
+body {
+    border: 2px solid crimson;
+    height: 150vh;
+}
+
+#absolute {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    background: darkolivegreen;
+    color: white;
+    z-index: 2;
+}
+
+#relative {
+    position: relative;
+    left: 0px;
+    top: 50px;
+    width: 75%;
+    height: 300px;
+    background: lightblue;
+    z-index: 1;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    padding: 5px;
+    background: black;
+    color: white;
+    z-index: 99;
+    cursor: pointer;
+}

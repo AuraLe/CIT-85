@@ -1,0 +1,62 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+body div {
+    width: 100px;
+    height: 100px;
+    margin: 2px auto;
+    border-radius: 10px;
+}
+
+#c1 {
+    background: hsla(340, 89%, 21%, 1);
+}
+
+#c2 {
+    background: hsla(340, 88%, 29%, 1);
+}
+
+#c3 {
+    background: hsla(340, 87%, 38%, 1);
+}
+
+#c4 {
+    background: hsla(340, 86%, 43%, 1);
+}
+
+#c5 {
+    background: hsla(340, 85%, 48%, 1);
+}
+
+#c6 {
+    background: hsla(340, 84%, 52%, 1);
+}
+
+#c7 {
+    background: hsla(340, 83%, 59%, 1);
+}
+
+#c8 {
+    background: hsla(340, 82%, 76% , 1);
+}
+
+#c9 {
+    background: hsla(340, 81%, 85% , 1);
+}
+
+#c10 {
+    background: hsla(340, 80%, 94% , 1);
+}
+

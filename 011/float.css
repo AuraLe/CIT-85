@@ -1,0 +1,27 @@
+.image {
+    border: 5px solid indianred;
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+#f1 {
+    width: 300px;
+    overflow: hidden;
+}
+
+#f2 {
+    width: 150px;
+    overflow: visible;
+}
+
+#f3 {
+    width: 200px;
+    overflow: auto;
+}

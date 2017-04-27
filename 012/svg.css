@@ -1,0 +1,31 @@
+#binoculars {
+    fill: red;
+}
+
+#binoculars:hover {
+    fill: blue;
+}
+
+#battery {
+    fill: lawngreen;
+}
+
+#battery:hover {
+    fill: red;
+}
+
+#heart {
+    fill: hotpink;
+}
+
+#heart:hover {
+    fill: darkviolet;
+}
+
+#icon {
+    fill: gold; 
+}
+
+#icon:hover {
+    fill: darkorange;
+}

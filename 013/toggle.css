@@ -1,0 +1,116 @@
+label {
+    padding: 5px 15px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%);
+    color: white;
+    cursor: pointer;
+    transition: all 500ms ease-out;
+    position: relative;
+    z-index: 99;
+    box-shadow: 0px 0px 2px indianred;
+}
+
+label:hover {
+    color: darkmagenta;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#nami {
+    position: fixed;
+    top: 0px;
+    right: -50rem;
+    height: 100vh;
+    width: 25vw;
+    background: url('https://vignette4.wikia.nocookie.net/leagueoflegends/images/6/66/Nami_OriginalLoading.jpg/revision/latest?cb=20160525191408') no-repeat;
+    background-size: cover;
+    transition: all 1s ease-out;
+    transition-delay: 0s;
+    z-index: 6;
+}
+
+input[type="checkbox"]:checked ~ #nami {
+    right: 0rem;
+}
+
+#janna {
+    position: fixed;
+    top: 0px;
+    right: -50vw;
+    height: 100vh;
+    width: 25vw;
+    background: url('https://vignette2.wikia.nocookie.net/leagueoflegends/images/3/3e/Janna_OriginalLoading.jpg/revision/latest?cb=20160525004605&format=original') no-repeat;
+    background-size: cover;
+    transition: all 1s ease-out;
+    transition-delay: 250ms;
+    z-index: 5;
+}
+
+input[type="checkbox"]:checked ~ #janna {
+    right: 5vw;
+}
+
+input[type="checkbox"]:checked ~ #janna:hover {
+    right: 25vw;
+    transition: all 0.5s linear;
+}
+
+#sona {
+    position: fixed;
+    top: 0px;
+    right: -50vw;
+    height: 100vh;
+    width: 25vw;
+    background: url('https://vignette1.wikia.nocookie.net/leagueoflegends/images/a/ad/Sona_ArcadeLoading.jpg/revision/latest?cb=20160526035638&format=original') no-repeat;
+    background-size: cover;
+    transition: all 1s ease-out;
+    transition-delay: 500ms;
+    z-index: 4;
+}
+
+input[type="checkbox"]:checked ~ #sona {
+    right: 10vw;
+}
+
+input[type="checkbox"]:checked ~ #sona:hover {
+    right: 30vw;
+    transition: all 0.5s linear;
+}
+
+#lulu {
+    position: fixed;
+    top: 0px;
+    right: -50vw;
+    height: 100vh;
+    width: 25vw;
+    background: url('https://vignette3.wikia.nocookie.net/leagueoflegends/images/3/31/Lulu_OriginalLoading.jpg/revision/latest?cb=20170207224152&format=original') no-repeat;
+    background-size: cover;
+    transition: all 1s ease-out;
+    transition-delay: 750ms;
+    z-index: 3;
+}
+
+input[type="checkbox"]:checked ~ #lulu {
+    right: 15vw;
+}
+
+input[type="checkbox"]:checked ~ #lulu:hover {
+    right: 35vw;
+    transition: all 0.5s linear;
+}
+
+input[id="show-all"]:checked ~ #janna, input[id="show-all"]:checked ~ #janna:hover {
+    right: 25vw;
+}
+
+input[id="show-all"]:checked ~ #sona, input[id="show-all"]:checked ~ #sona:hover {
+    right: 50vw;
+}
+
+input[id="show-all"]:checked ~ #lulu, input[id="show-all"]:checked ~ #lulu:hover {
+    right: 75vw;
+}
+
+

@@ -1,0 +1,41 @@
+#f1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#f2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#f3 {
+    font-family: 'Pacifico';
+    font-weight: bold;
+}
+
+#f4 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#f5 {
+    letter-spacing: 5px;
+}
+
+#f6 {
+    text-shadow: 2px 3px 0px gray;
+}
+
+#f7 a {
+    text-decoration: none;
+}
+
+#f7 a:hover {
+    text-decoration: underline;
+}
+
+#f8 {
+    text-decoration: line-through;
+}
+
+#f9 {
+    text-indent: 5vw;
+}
